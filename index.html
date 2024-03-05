@@ -13,58 +13,53 @@
 <section>
     <h2>Introduction to Chess Openings</h2>
     <p>Understanding the first moves in chess—known as "openings"—is crucial for strategic play. This guide covers some of the most influential openings and their objectives.</p>
+    <img src="Chess_board_opening_staunton.jpg" alt="Chess Board Opening" style="width:100%;max-width:600px;margin:20px 0;">
 </section>
 
 <section>
     <h2>Featured Chess Openings</h2>
-    <img src="chess_openings_image.jpg" alt="Chess Pieces and Board" style="width:100%;max-width:600px;margin:20px 0;">
-    <table border="1" style="width:100%;">
-        <caption>Overview of Chess Openings</caption>
-        <thead>
-            <tr>
-                <th>Opening</th>
-                <th>Type</th>
-                <th>Objective</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sicilian Defense</td>
-                <td>Defense</td>
-                <td>Control center, counter-attack</td>
-            </tr>
-            <tr>
-                <td>French Defense</td>
-                <td>Defense</td>
-                <td>Fortify pawn structure, challenge center</td>
-            </tr>
-            <tr>
-                <td>Ruy Lopez</td>
-                <td>Open</td>
-                <td>Target opponent's knight, control center</td>
-            </tr>
-            <tr>
-                <td>Italian Game</td>
-                <td>Open</td>
-                <td>Develop pieces rapidly, control center</td>
-            </tr>
-            <tr>
-                <td>Queen's Gambit</td>
-                <td>Closed</td>
-                <td>Control center, offer pawn sacrifice for positional advantage</td>
-            </tr>
-            <tr>
-                <td>English Opening</td>
-                <td>Flank</td>
-                <td>Control center from the flank, flexible pawn structure</td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Table of openings here -->
 </section>
 
 <section>
-    <h2>Exploring Deeper</h2>
-    <p>Each opening has its strategies and variations. Mastery involves understanding the underlying principles and responding to the opponent's moves effectively.</p>
+    <h2>Learn More</h2>
+    <details>
+        <summary>Click to expand</summary>
+        <p>Chess is a game of infinite complexities and psychological nuances. Mastering openings is just the first step toward developing a sophisticated understanding of the game.</p>
+    </details>
+</section>
+
+<section>
+    <h2>Your Progress in Chess</h2>
+    <label for="chessProgress">Understanding Chess Openings:</label>
+    <progress id="chessProgress" value="30" max="100">30%</progress>
+</section>
+
+<section>
+    <h2>Interactive Chess Map</h2>
+    <img src="Chess_board_opening_staunton.jpg" alt="Chess Board Map" usemap="#chessboardmap" style="width:100%;max-width:600px;">
+    <map name="chessboardmap">
+        <area shape="rect" coords="0,0,100,100" href="#sicilian" alt="Sicilian Defense">
+        <area shape="rect" coords="100,100,200,200" href="#french" alt="French Defense">
+        <area shape="rect" coords="200,200,300,300" href="#ruylopez" alt="Ruy Lopez">
+    </map>
+</section>
+
+<section>
+    <h2>Share Your Thoughts</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="opening">Favorite Chess Opening:</label>
+        <select id="opening" name="opening">
+            <option value="sicilian">Sicilian Defense</option>
+            <option value="french">French Defense</option>
+            <option value="ruylopez">Ruy Lopez</option>
+        </select><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
 </section>
 
 <footer>
@@ -73,4 +68,3 @@
 
 </body>
 </html>
-
